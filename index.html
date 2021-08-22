@@ -1,13 +1,9 @@
----
-layout: presentation
----
+<!DOCTYPE html>
+<html>
+<body>
 
-{% for post in site.posts reversed %}
-	{% include slide.html %}
-	<div class="page-break"></div>
-{% endfor %}
-{% unless site.simple-slideshow %}
-{% if site.overview %}
-<section id="overview" class="step" {% for attr in site.overview-data %} data-{{attr[0]}}="{{attr[1]}}"{% endfor %}></section>
-{% endif %}
-{% endunless %}
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+</body>
+</html>
