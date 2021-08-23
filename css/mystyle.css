@@ -1,1 +1,6 @@
 table {border: none;}
+
+img {
+  max-width: 200%;
+  height: auto;
+}
