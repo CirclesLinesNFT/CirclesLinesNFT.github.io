@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Circles and Lines - NFT Collection</title>
+  <link rel='stylesheet' type='text/css' href="css/mystyle.css">
+
+  <!--  <script src="jquery.js"></script> -->
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script>
+  $(function(){
+    var includes = $('[data-include]');
+    jQuery.each(includes, function(){
+      var file = 'Resources/' + $(this).data('include') + '.html';
+      $(this).load(file);
+    });
+  });
+  </script>
+  
+  <!--  Google Analytics -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WP9L6WYY3N"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-WP9L6WYY3N');
+  </script>
+    <style>
+  </style>
+</head>
+  
+
+<body>
+<div data-include="TopNav"></div>
+<div class = "main" id = "main">
+<h1>Circles and Lines NFT Collection</h1>
+  <p> Here I'll post a description of how they are made </p>
+</div>
+
+</body>
+</html>
